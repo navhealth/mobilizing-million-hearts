@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - eslint > inquirer > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - eslint > table > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - jest-cli > jest-config > @babel/core > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest-cli > jest-config > @babel/core > lodash
+    - jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest-cli > jest-config > @babel/core > @babel/traverse > lodash
+    - jest-cli > jest-config > @babel/core > @babel/helper-module-transforms > @babel/traverse > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest-cli > jest-config > @babel/core > @babel/helper-module-transforms
+          > @babel/traverse > lodash
+    - jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2024-12-13T22:39:42.803Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request-promise-native > request-promise-core > lodash
